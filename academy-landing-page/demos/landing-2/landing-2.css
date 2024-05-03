@@ -25,6 +25,24 @@ body.dark,
 	background-color: rgba(var(--cnvs-themecolor-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.primary-button {
+	background-color: #F82586;
+}
+
+.primary-button:hover {
+	background-color: #FFF;
+	color: #F82586;
+}
+
+.secondary-button {
+	border-radius: 30px;
+	padding: 40px 50px;
+}
+
+.tertiary-button {
+	background-color: #F82586;
+}
+
 ::selection {
 	color: #000;
 }
@@ -146,6 +164,12 @@ body.dark,
 
 #footer {
 	border-top: 1px solid var(--cnvs-themecolor);
+}
+
+@media (max-width: 600px) {
+	.primary-heading h1 {
+		font-size: 45px;
+	}
 }
 
 /* Responsive Device more than 992px (.device-md >)
